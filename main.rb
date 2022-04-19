@@ -1,8 +1,5 @@
 def superFatorial(n)
   fact = 1
-  if n == 0
-    return 0
-  end
 
   for i in 1..(n)
     for j in 1..(i)
